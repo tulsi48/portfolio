@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tulsi Kumbhar | AI/ML Engineer</title>
+
+  <style>
+    :root {
+      --bg: #020617;
+      --card: #0f172a;
+      --accent: #38bdf8;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", system-ui, sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top, #0f172a, #020617);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    section {
+      padding: 80px 8%;
+    }
+
+    h1 { font-size: 56px; }
+    h2 { font-size: 32px; margin-bottom: 30px; }
+    h3 { font-size: 20px; }
+
+    p { color: var(--muted); }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 26px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--accent), #60a5fa);
+      color: #020617;
+      font-weight: 600;
+      margin-right: 15px;
+      transition: transform 0.2s;
+    }
+
+    .btn:hover { transform: translateY(-3px); }
+
+    .card {
+      background: linear-gradient(180deg, #020617, var(--card));
+      border-radius: 18px;
+      padding: 32px;
+      box-shadow: 0 0 0 1px rgba(148,163,184,0.12);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 28px;
+    }
+
+    .tags span {
+      display: inline-block;
+      margin: 6px 8px 0 0;
+      padding: 6px 14px;
+      background: #020617;
+      border-radius: 999px;
+      font-size: 13px;
+      color: #93c5fd;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- HERO -->
+<section style="
+  display:grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap:60px;
+  min-height:95vh;
+  align-items:center;
+">
+  <div>
+    <h1>Tulsi <span style="color:#38bdf8">Kumbhar</span></h1>
+    <p style="margin-top:20px; font-size:18px; max-width:650px;">
+      AI/ML Engineer and Software Developer building <b>real-world,
+      production-oriented systems</b> using Computer Vision, NLP, and IoT.
+      I design end-to-end solutions — from sensors and data to deployed models.
+    </p>
+
+    <div style="margin-top:35px;">
+      <a class="btn" href="https://github.com/" target="_blank">GitHub</a>
+      <a class="btn" href="mailto:yourmail@example.com">Contact Me</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3 style="color:#38bdf8; margin-bottom:18px;">Engineer Snapshot</h3>
+
+    <div class="grid">
+      <div>
+        <h2>15+</h2>
+        <p>Projects Built</p>
+      </div>
+      <div>
+        <h2>5+</h2>
+        <p>AI Domains</p>
+      </div>
+      <div>
+        <h2>End-to-End</h2>
+        <p>System Design</p>
+      </div>
+      <div>
+        <h2>Real-World</h2>
+        <p>Problem Solving</p>
+      </div>
+    </div>
+
+    <hr style="margin:26px 0; border:0; border-top:1px solid #1f2937;">
+
+    <p style="font-size:14px; margin-bottom:10px;">Primary Stack</p>
+    <div class="tags">
+      <span>Python</span><span>YOLO</span><span>OpenCV</span>
+      <span>NLP</span><span>IoT</span><span>NodeMCU</span>
+      <span>Linux</span><span>Git</span>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section>
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      I don’t build projects for marks or certificates. I build systems to
+      solve <b>safety, accessibility, and automation</b> problems.
+      My work spans AI-powered surveillance, assistive technology for the
+      visually impaired, industrial safety systems, and intelligent IoT devices.
+    </p>
+    <br/>
+    <p>
+      I’m comfortable owning the entire pipeline — hardware integration,
+      data collection, model training, optimization, and deployment.
+    </p>
+  </div>
+</section>
+
+<!-- FOCUS -->
+<section>
+  <h2>Core Focus Areas</h2>
+  <div class="grid">
+    <div class="card">🤖 AI & Machine Learning Systems</div>
+    <div class="card">👁️ Computer Vision & Video Analytics</div>
+    <div class="card">🗣️ NLP & Voice Assistants</div>
+    <div class="card">🌐 IoT & Embedded Automation</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section>
+  <h2>Selected Projects</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3 style="color:#38bdf8;">Anomalous Human Activity Detection (AHAD)</h3>
+      <p>
+        Real-time system detecting abnormal human behavior from live video
+        streams for surveillance and safety.
+      </p>
+      <p><b>Impact:</b> Automated threat awareness without manual monitoring.</p>
+      <div class="tags">
+        <span>YOLO</span><span>OpenCV</span><span>Python</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 style="color:#38bdf8;">Object Detection for Blind Assistance</h3>
+      <p>
+        Vision-to-speech pipeline that narrates surroundings in real time
+        for visually impaired users.
+      </p>
+      <p><b>Impact:</b> Improved independent navigation.</p>
+      <div class="tags">
+        <span>Computer Vision</span><span>TTS</span><span>Python</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 style="color:#38bdf8;">Unified Safety System for Crane Operations</h3>
+      <p>
+        Multi-sensor collision prevention system using LIDAR, GPS,
+        ultrasonic sensors, and AI vision.
+      </p>
+      <p><b>Impact:</b> Reduced accident risk in industrial zones.</p>
+      <div class="tags">
+        <span>IoT</span><span>LIDAR</span><span>AI Vision</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 style="color:#38bdf8;">JARVIS-Like AI Voice Assistant</h3>
+      <p>
+        Modular AI assistant with speech recognition, NLP-based intent
+        detection, and automation control.
+      </p>
+      <div class="tags">
+        <span>NLP</span><span>Speech</span><span>Python</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section>
+  <h2>Technical Skills</h2>
+  <div class="card tags">
+    <span>Python</span><span>C++</span><span>Machine Learning</span>
+    <span>Deep Learning</span><span>Computer Vision</span>
+    <span>NLP</span><span>YOLO</span><span>OpenCV</span>
+    <span>IoT</span><span>NodeMCU</span><span>Linux</span><span>Git</span>
+  </div>
+</section>
+
+<!-- CTA -->
+<section>
+  <h2>Let’s Build Something Real</h2>
+  <div class="card">
+    <p>
+      I’m actively looking for AI/ML roles and internships where I can work
+      on <b>real systems, not demo projects</b>.  
+      If that aligns with what you’re building — let’s talk.
+    </p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Tulsi Kumbhar • Built with pure HTML & CSS
+</footer>
+
+</body>
+</html>
